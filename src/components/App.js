@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { PackageTile, Dummy } from './workpkg/WorkPackage'
 import { Navbar, NavItem, MenuItem, NavDropdown, Nav } from 'react-bootstrap';
 import { Link } from 'react-router'
 import logo from './logo.svg';
