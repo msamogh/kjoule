@@ -24,7 +24,7 @@ class SplitPane extends Component {
 	render() {
 		const navMenuItems = this.props.locations.map(function(location, i) {
 			return (
-				<LinkContainer key={i} to={location.href}>
+				<LinkContainer activeClassName='active' key={i} to={location.href}>
 					<NavItem eventKey={location.href}>{location.text}</NavItem>
 				</LinkContainer>
 			);

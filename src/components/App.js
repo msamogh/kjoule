@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, NavItem, MenuItem, NavDropdown, Nav } from 'react-bootstrap';
 import { Link } from 'react-router'
-import logo from './logo.svg';
 import './App.css';
 
 class NavBar extends Component {
